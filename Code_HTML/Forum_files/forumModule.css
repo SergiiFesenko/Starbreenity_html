@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Jura-Bold";
+  src: url(../fonts/Jura-Bold.ttf?da05898009e0d7b6fbf889a9f2b3dd19) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-SemiBold";
+  src: url(../fonts/Jura-SemiBold.ttf?ffd2baf7a7d70b4c6d5e3ff14bf81730) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Medium";
+  src: url(../fonts/Jura-Medium.ttf?12a5619b11de6c2d3f7378e92571081d) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Light";
+  src: url(../fonts/Jura-Light.ttf?d227557731796f0c5b98cb3b6f5350fa) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Regular";
+  src: url(../fonts/Jura-Regular.ttf?a6754acd82bc0192141e19438f48841c) format("truetype");
+}
+
+.forumPage .search-input__group {
+  margin: 0px;
+}
+
+.forumPage .actions-row {
+  margin-bottom: 20px;
+}
+
+.forumPage .actions-row .default-button {
+  padding: 5px 40px;
+}
+
+.forumPage .search-bottom__row {
+  margin-top: 20px;
+}
+
+.profilePage .user-profile__block {
+  padding: 0px 15px 50px;
+}
+
+.profilePage .user-profile__avatar {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 0 20px 0 0;
+}
+
+.profilePage .user-profile__info-label {
+  display: block;
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.profileEditModule .user-profile__info {
+  width: 100%;
+}
+
+.profileEditModule .user-avatar__block {
+  margin-bottom: 20px;
+}
+
+.profileEditModule .user-profile__avatar {
+  margin: 0 20px 0 0;
+}
+
+.profileEditModule .user-profile__block {
+  padding: 25px 25px;
+}
+
+.profileEditModule .block-title {
+  margin-bottom: 20px;
+}
+
+.threadModule .thread-item {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.threadModule .thread-user__avatar {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+.threadModule .thread-user__name {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.threadModule .thread-user__messages,
+.threadModule .thread-user__registration {
+  display: block;
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.threadModule .thread-article__block {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 25px 25px 45px 30px;
+}
+
+.threadModule .thread-article__text {
+  font-family: "Jura-Regular", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 14px;
+  color: #FFFFFF !important;
+  margin-bottom: 40px;
+}
+
+.threadModule .thread-article__text p,
+.threadModule .thread-article__text strong,
+.threadModule .thread-article__text span {
+  font-family: "Jura-Regular", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 14px;
+  color: #FFFFFF !important;
+  width: 100%;
+  margin-top: 0;
+  background-color: transparent !important;
+}
+
+.threadModule .thread-article__text .reply-message {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.threadModule .thread-article__text .reply-message a {
+  color: #ffffff;
+  display: block;
+}
+
+.threadModule .thread-article__reply {
+  font-family: "Jura-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 14px;
+  color: #0075FF;
+  display: inline-block;
+  float: left;
+}
+
+.threadModule .thread-article__reply:hover {
+  cursor: pointer;
+}
+
+.threadModule .thread-article__date {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  float: right;
+}
+
+.threadModule .thread-article__title {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.threadModule .user-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.threadModule .user-rating .icon {
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: ease-in-out .25s all;
+  transition: ease-in-out .25s all;
+  margin: 0 5px;
+}
+
+.threadModule .user-rating .icon:hover {
+  background-color: white;
+}
+
+.threadModule .trumbowyg-box {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.threadModule .trumbowyg-box,
+.threadModule .trumbowyg-editor {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+
+.threadModule .trumbowyg-button-pane {
+  border-bottom: none;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.threadModule .trumbowyg-box svg {
+  fill: #ffffff;
+}
+
+.threadModule .trumbowyg-button-pane::after {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.threadModule .trumbowyg-button-pane .trumbowyg-button-group::after {
+  background: transparent;
+}
+
+.threadModule .trumbowyg-button-pane button svg {
+  -webkit-transition: ease-in-out all .15s;
+  transition: ease-in-out all .15s;
+}
+
+.threadModule .trumbowyg-button-pane button:not(.trumbowyg-disable):hover,
+.threadModule .trumbowyg-button-pane button:not(.trumbowyg-disable):focus,
+.threadModule .trumbowyg-button-pane button.trumbowyg-active {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.threadModule .trumbowyg-button-pane button:not(.trumbowyg-disable):hover svg,
+.threadModule .trumbowyg-button-pane button:not(.trumbowyg-disable):focus svg,
+.threadModule .trumbowyg-button-pane button.trumbowyg-active svg {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.threadModule .trumbowyg-editor {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 14px;
+  color: #fff;
+}
+

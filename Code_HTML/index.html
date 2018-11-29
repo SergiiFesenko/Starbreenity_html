@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="welcomePage">
+    <head>
+        <title>Starbreenity</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="description" content="">
+        <meta property="og:locale" content="en_EN">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:site_name" content="Indie">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="Indie">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+        <meta itemprop="name" content="Indie">
+        <meta itemprop="description" content="">
+        <meta itemprop="image" content="">
+        <meta name="csrf-token" content="">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="./index_files/app.css">
+        <link rel="stylesheet" href="./index_files/responsive.css">
+
+        <script src="./index_files/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+        <section>
+            <video id="vdbackground" loop="" muted="" autoplay="autoplay">
+                <source src="./index_files/welcome.mp4" type="video/mp4">
+            </video>
+            <div class="overlay default-grid">
+                <div class="container">
+                    <div class="row">
+                        <div class="column-8 welcome-message">
+                            <img src="./index_files/logo.svg" alt="">
+                            <p>
+                                Первая карточная стратегия для мобильных платформ из вселенной Starbreeze
+                            </p>
+                            <!--<a href="https://indie.acsima.com/" class="welcome-button">Перейти на сайт</a>-->
+                            <a href="Main.html" class="welcome-button">В путь!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            $(document).ready(function () {
+                $(document).click();
+                setTimeout(function () {
+                    document.getElementById("vdbackground").play();
+                }, 500);
+            });
+        </script>
+    </body>
+</html>

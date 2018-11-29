@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="custom-scroll-bar">
+    <head>
+        <title>Форум</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <meta property="description" content="Форум">
+        <meta property="og:locale" content="en_EN">
+        <meta property="og:title" content="Форум">
+        <meta property="og:description" content="Описание">
+        <meta property="og:site_name" content="Forum">    
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="Forum">
+        <meta name="twitter:title" content="Форум">
+        <meta name="twitter:description" content="Описание">
+        <meta itemprop="name" content="Universe">
+        <meta itemprop="description" content="Описание">
+        <meta name="csrf-token" content="">
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="./Forum_files/app.css">
+        <link rel="stylesheet" href="./Forum_files/forumModule.css">
+        <link rel="stylesheet" href="./Forum_files/responsive.css">
+
+        <script src="./Forum_files/app.js"></script>
+    </head>
+    <body class="container-background">
+        <header class="default-header">
+            <div class="container">
+                <div class="mobile-menu__header">
+                    <a href="Starbreenity.html">
+                        <img src="./Forum_files/logo.svg" alt="" class="default-header__logo">
+                    </a>
+                    <i class="icon menu-icon default mobile-burger"></i>
+                </div>
+                <nav class="default-header__navigation">
+                    <a href="Main.html" class="default-header__navigation-item">О игре</a>
+                    <a href="Universe.html" class="default-header__navigation-item">Вселенная</a>
+                    <a href="Team.html" class="default-header__navigation-item">Наша команда</a>
+                    <a href="Way.html" class="default-header__navigation-item"> Путь к мечте</a>
+                    <a href="Forum.html" class="default-header__navigation-item active">Форум</a>
+                    <a href="Contacts.html" class="default-header__navigation-item ">Контакты</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="forumPage mainPage">
+                <div class="container default-grid">
+                    <div class="row">
+                        <div class="column-12">
+                            <nav class="breadcrumbs">
+                                <a class="breadcrumbs-item" href="https://indie.acsima.com/forum">
+                                    Форум
+                                    <i class="icon arrow-icon medium"></i>
+                                </a>
+                            </nav>                </div>
+                    </div>
+                    <div class="row">
+                        <div class="column-10 column-sm-12">
+                            <span class="container-title">
+                                Форум                    </span>
+                        </div>
+                        <div class="column-2 column-sm-12 d-flex align-items-center justify-content-end user-profile__short">
+                            <div class="user-actions">
+                                <a href="https://indie.acsima.com/login">Вход</a>
+                                <a href="https://indie.acsima.com/registration">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row actions-row mobile-padding">
+                        <div class="column-3 column-sm-12 d-flex align-items-center">
+                            <form action="https://indie.acsima.com/forum/search" class="search-input__group w-100">
+                                <input class="w-100" type="text" name="query" placeholder="Поиск в теме...">
+                                <i class="icon search-icon default">
+                                </i>
+                            </form>                
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="column-12 column-sm-12">
+                            <div class="default-block__padding block-background">
+                                <table class="default-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Раздел форума</th>
+                                            <th width="10%">Тем</th>
+                                            <th width="15%">Сообщений</th>
+                                            <th>Последнее сообщение</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a class="article-title text-hover__helper" href="https://indie.acsima.com/forum/category/4">
+                                                    Новичкам
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    1
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    2
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    Тема 10050098j9i
+                                                </span>
+                                                <span class="article-author">
+                                                    admin<br>
+                                                    05:15 19.10.18
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a class="article-title text-hover__helper" href="https://indie.acsima.com/forum/category/14">
+                                                    locked
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    1
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    5
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    смерть
+                                                </span>
+                                                <span class="article-author">
+                                                    admin<br>
+                                                    05:16 19.10.18
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a class="article-title text-hover__helper" href="https://indie.acsima.com/forum/category/2">
+                                                    Правила
+                                                </a>
+                                                <span class="article-description">
+                                                    Основные правила поведения на форуме
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    14
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    43
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    tesetset et
+                                                </span>
+                                                <span class="article-author">
+                                                    admin<br>
+                                                    12:09 03.10.18
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a class="article-title text-hover__helper" href="https://indie.acsima.com/forum/category/3">
+                                                    Общие
+                                                </a>
+                                                <span class="article-description">
+                                                    Общие темы
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    1
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    1
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    tema 33
+                                                </span>
+                                                <span class="article-author">
+                                                    admin<br>
+                                                    12:13 03.10.18
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a class="article-title text-hover__helper" href="https://indie.acsima.com/forum/category/1">
+                                                    Информация
+                                                </a>
+                                                <span class="article-description">
+                                                    Информация для новых пользователей
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    3
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    9
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="article-label">
+                                                    сайт
+                                                </span>
+                                                <span class="article-author">
+                                                    admin<br>
+                                                    05:20 19.10.18
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row search-bottom__row">
+                        <div class="column-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="default-footer">
+            <div class="container">
+                <div class="row ">
+                    <div class="column-12 default-footer__navigation-row">
+                        <img src="./Forum_files/logo.svg" alt="" class="default-header__logo">
+                        <nav class="default-footer__navigation menu">
+                            <!--<a href="Main.html" class="default-footer__navigation-item ">Главная</a>-->
+                            <a href="Main.html" class="default-footer__navigation-item">О игре</a>
+                            <a href="Universe.html" class="default-footer__navigation-item">Вселенная</a>
+                            <a href="Team.html" class="default-footer__navigation-item">Наша команда</a>
+                            <a href="Way.html" class="default-footer__navigation-item"> Путь к мечте</a>
+                            <a href="Forum.html" class="default-footer__navigation-item active">Форум</a>
+                            <!--<a href="Contacts.html" class="default-footer__navigation-item ">Контакты</a>-->
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-12 default-footer__navigation-row">
+                        <nav class="default-footer__navigation contacts">
+                            <a href="mailto:esstarbreeze@gmail.com" class="default-footer__navigation-item">
+                                <i class="icon default mail-icon white__theme"></i>
+                                esstarbreeze@gmail.com
+                            </a>
+                            <a href="https://telegram.me/380632388920" class="default-footer__navigation-item">
+                                <i class="icon default telegra-icon white__theme"></i>
+                                +380632388920
+                            </a>
+                            <a href="tel:380967071753" class="default-footer__navigation-item">
+                                <i class="icon default phone-icon white__theme"></i>
+                                (+38)096 707-17-53 Андрей
+                            </a>
+                        </nav>
+                        <!--<a href="https://acsima.com/" class="icon acsima-icon poweredby"></a>-->
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

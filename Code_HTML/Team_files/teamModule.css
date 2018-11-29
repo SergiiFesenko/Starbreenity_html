@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Jura-Bold";
+  src: url(../fonts/Jura-Bold.ttf?da05898009e0d7b6fbf889a9f2b3dd19) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-SemiBold";
+  src: url(../fonts/Jura-SemiBold.ttf?ffd2baf7a7d70b4c6d5e3ff14bf81730) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Medium";
+  src: url(../fonts/Jura-Medium.ttf?12a5619b11de6c2d3f7378e92571081d) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Light";
+  src: url(../fonts/Jura-Light.ttf?d227557731796f0c5b98cb3b6f5350fa) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Regular";
+  src: url(../fonts/Jura-Regular.ttf?a6754acd82bc0192141e19438f48841c) format("truetype");
+}
+
+.teamPage p {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.teamPage a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.teamPage a:hover {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+.teamPage p a {
+  color: #FFD700;
+  /* color: #FFFFFF; */
+  text-decoration: none;
+}
+
+.teamPage p a:hover {
+  text-decoration: underline;
+}
+
+.teamPage .team-logo {
+  display: block;
+  margin: 0 auto 65px auto;
+}
+
+.teamPage .team-members__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.teamPage .team-member {
+  width: 46%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.teamPage .team-member img {
+  border-radius: 100%;
+  width: 115px;
+  height: 115px;
+  margin-right: 33px;
+}
+
+.teamPage .team-member .team-member__name {
+  font-family: "Jura-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.teamPage .team-member p {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.teamPage .team-member .team-member__description {
+  text-decoration: none;
+  color: #ffffff;
+}
+

@@ -1,0 +1,395 @@
+@media (max-width: 768px) {
+  section {
+    padding-top: 60px;
+  }
+
+  .mobile-menu__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+
+  .mobile-menu__header .icon {
+    display: block;
+    background-color: #fff;
+  }
+
+  .mobile-padding {
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .mobile-padding .search-input__group {
+    margin: 20px 0;
+  }
+
+  .mobile-padding .column-offset-7,
+  .mobile-padding .column-offset-2 {
+    margin-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .user-profile__short {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .user-profile__short .user-actions {
+    text-align: center;
+  }
+
+  .breadcrumbs {
+    display: none;
+  }
+
+  .main__block-title {
+    font-size: 30px;
+    text-align: center;
+    background: none;
+    padding: 0;
+  }
+
+  .mainPage .gameplay .gameplay-image__set .gameplay-image__block {
+    width: 100%;
+    margin-right: 0;
+    padding: 0 40px;
+  }
+
+  .container-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .main__padding {
+     /* padding: 25px;  */
+     padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  
+  .default-footer__navigation.menu {
+    display: none;
+  }
+
+  .default-footer__navigation.contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .default-footer__navigation.contacts a {
+    margin: 0 0 20px 0;
+  }
+
+  .default-footer {
+    padding: 35px 20px;
+  }
+
+  .default-footer .default-footer__navigation-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    
+    border: solid 1px yellow;
+background: #fc0;    
+  }
+
+  .main-screen {
+    background-position: center;
+  }
+
+  .main-screen .main-screen__info {
+    padding: 30px;
+    margin: 0 15px;
+  }
+
+  .default-header {
+    background: #0A0922;
+    padding: 15px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 60px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    -webkit-transition: ease-in-out .5s height;
+    transition: ease-in-out .5s height;
+  }
+
+  .default-header .container:after {
+    content: none;
+  }
+
+  .default-header .default-header__logo {
+    width: 9em;
+  }
+
+  .default-header .default-header__navigation {
+    display: none;
+    background-image: none;
+  }
+
+  .default-header.active {
+    height: 100vh;
+  }
+
+  .default-header.active .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .default-header.active .container .default-header__navigation {
+    padding: 120px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .default-header.active .container .default-header__navigation:after {
+    content: none;
+  }
+
+  .default-header.active .container .default-header__navigation a {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 45px;
+    margin-right: 0;
+  }
+
+  .teamPage p {
+    text-align: justify;
+  }
+
+  .teamPage .team-member {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .teamPage .team-member img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .teamPage .team-member > .d-flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .teamPage .team-member > .d-flex .team-member__name,
+  .teamPage .team-member > .d-flex .team-member__description {
+    text-align: center;
+  }
+  
+  .teamPage .team-logo {
+    width: 100%;
+  }
+
+  .about-page p {
+    text-align: justify;
+  }
+
+  .dreamPage .steps-list .step-item {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .dreamPage .steps-list .step-item:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .dreamPage .steps-list .step-item:after,
+  .dreamPage .steps-list .step-item:before {
+    content: none;
+  }
+
+  .dreamPage .steps-list .step-item .step-title {
+    font-size: 20px;
+  }
+
+  .dreamPage .steps-list .step-item .step-description {
+    margin: 0;
+  }
+
+  .dreamPage .steps-list .step-item img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .contactsPage .login-form {
+    margin-bottom: 20px;
+  }
+
+  .contactsPage .contactsFormRow {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  .loginPage .login-form > .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .loginPage .login-form > .d-flex .default-button {
+    margin-top: 30px;
+  }
+
+  .threadModule .thread-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .threadModule .thread-item .column-2 {
+    margin-bottom: 15px;
+  }
+
+  .threadModule .thread-item .column-2 figure {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .profilePage .user-profile__short {
+    display: none;
+  }
+
+  .profilePage .column-offset-3 {
+    margin: 0 auto 20px auto;
+  }
+
+  .profilePage .user-profile__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .profilePage .user-profile__block .user-profile__avatar {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .profilePage .user-profile__block .user-profile__info-label {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .profilePage .lastmessages-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .profilePage .thread-item .column-2 {
+    display: none;
+  }
+
+  .profileEditModule .user-profile__block {
+    margin-bottom: 20px;
+  }
+
+  .profileEditModule .user-avatar__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .profileEditModule .column-offset-1 {
+    margin: 0;
+  }
+
+  .newThreadPage .user-profile__short {
+    display: none;
+  }
+
+  .default-table thead {
+    display: none;
+  }
+
+  .default-table tbody tr td:nth-child(2),
+  .default-table tbody tr td:nth-child(3),
+  .default-table tbody tr td:nth-child(4) {
+    display: none;
+  }
+
+  .welcomePage section,
+  .welcomePage video {
+    width: auto;
+    height: 105vh;
+    margin-top: -5vh;
+    overflow: hidden;
+  }
+
+  .welcomePage .welcome-message {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .welcomePage .overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+

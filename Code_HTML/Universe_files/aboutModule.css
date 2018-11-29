@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Jura-Bold";
+  src: url(../fonts/Jura-Bold.ttf?da05898009e0d7b6fbf889a9f2b3dd19) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-SemiBold";
+  src: url(../fonts/Jura-SemiBold.ttf?ffd2baf7a7d70b4c6d5e3ff14bf81730) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Medium";
+  src: url(../fonts/Jura-Medium.ttf?12a5619b11de6c2d3f7378e92571081d) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Light";
+  src: url(../fonts/Jura-Light.ttf?d227557731796f0c5b98cb3b6f5350fa) format("truetype");
+}
+
+@font-face {
+  font-family: "Jura-Regular";
+  src: url(../fonts/Jura-Regular.ttf?a6754acd82bc0192141e19438f48841c) format("truetype");
+}
+
+.aboutPage p {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.aboutPage .gameplay-examples {
+  margin-bottom: 40px;
+}
+
+.aboutPage .gameplay-examples .gameplay-card {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+.aboutPage .gameplay-examples .gameplay-card img {
+  width: 100%;
+}
+
+.aboutPage .gameplay-examples .gameplay-card article {
+  padding: 30px 20px;
+}
+
+.aboutPage .gameplay-examples .gameplay-card article p {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.aboutPage .gameplay-examples .gameplay-card .gameplay-card__title {
+  font-family: "Jura-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.aboutPage .aboutgame,
+.aboutPage .prepsgame,
+.aboutPage .gameplay {
+  margin-bottom: 40px;
+}
+
+.aboutPage .aboutgame p,
+.aboutPage .prepsgame p,
+.aboutPage .gameplay p {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.aboutPage .aboutgame img {
+  width: 49%;
+}
+
+.aboutPage .prepsgame .preps-image__set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.aboutPage .prepsgame .preps-image__set img {
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.aboutPage .gameplay .gameplay-image__set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 60px;
+}
+
+.aboutPage .gameplay .gameplay-image__set .gameplay-image__block {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.aboutPage .gameplay .gameplay-image__set .gameplay-image__block span {
+  font-family: "Jura-Regular", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 23px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.aboutPage .gameplay .gameplay-image__set img {
+  margin-bottom: 20px;
+}
+
